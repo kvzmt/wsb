@@ -6,11 +6,10 @@ using namespace std;
 
 class Animal;
 
+
 extern std::vector<Animal*> animals;
 
 void menu();
-
-
 
 class Animal {
 protected:
@@ -29,9 +28,6 @@ public:
 	virtual void SoundOfAnimal() = 0;
 	virtual void Print() = 0;
 	virtual void getInfo() = 0;
-	
-	
-	
 
 };
 
@@ -75,8 +71,6 @@ public:
 	 {
 		 cout << "Jestem zwierzakiem rasy " << this->race <<  " o imieniu " << this->name << endl;
 	 }
-
-	
 };
 
 class Cat : public Animal {
