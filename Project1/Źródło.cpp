@@ -79,9 +79,6 @@ int main()
                 animal->Print();
                 animal->SoundOfAnimal();
                 animal->getInfo();
-                
-               
-                
             }
 
             break;
